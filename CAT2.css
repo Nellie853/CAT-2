@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #50C878;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label,
+form input,
+form button {
+    margin-bottom: 10px;
+}
+
+/* Style the input fields */
+form input {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+/* Style the button */
+form button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the button on hover */
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Style the links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Style the links on hover */
+a:hover {
+    text-decoration: underline;
+}
+/* Style the registration prompt */
+.registration-prompt {
+    text-align: center;
+}
